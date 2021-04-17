@@ -129,11 +129,12 @@ body.light #Copyright{
 .groupcard{
   display: flex;
   justify-content: space-between;
+  /* gap:50px; */
 }
 
 .card{
   height:180px;
-  width: 240px;
+  width: 220px;
   background-color: hsl(228, 28%, 20%);
   padding:20px;
   text-align: center;
@@ -202,7 +203,7 @@ body.light #Copyright{
 .overview{
   margin-top: 40px;
   color:hsl(0, 0%, 100%);
-  font-size: 26px
+  font-size: 26px;
 }
 
 .overview-card{
@@ -210,13 +211,14 @@ body.light #Copyright{
   justify-content: space-between;
   flex-wrap: wrap;
   font-size:14px;
+  /* gap:0 50px; */
 }
 
 .card-2{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width:240px;
+  width:220px;
   height:80px;
   padding:20px;
   background-color: hsl(228, 28%, 20%);
